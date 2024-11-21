@@ -1,0 +1,38 @@
+.header-admin {
+  background-color: #00AB9F;
+  width: 100%;
+  height: 72px;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 20%;
+}
+
+.center {
+  flex-grow: 1;
+}
+
+.searchInput {
+  border-radius: 40px;
+  height: 40px;
+  max-width: 645px;
+  width: 100%;
+}
+
+.rightIcon {
+  width: 32px;
+  height: 32px;
+}
+
+.leftIcon {
+  height: 40px;
+}
+
+.containers {
+  max-width: 90%;
+  width: 100%;
+}

@@ -1,0 +1,17 @@
+.w-550 {
+  width: 550px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .w-550 {
+    width: 100% !important;
+  }
+ .other_login {
+  justify-content: center;
+ } 
+
+ .other_login img {
+  margin: 0 6px;
+ }
+}

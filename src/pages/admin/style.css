@@ -1,0 +1,9 @@
+.inp::placeholder {
+    color: #00AB9F;
+}
+
+.bg-toggle {
+    --tw-bg-opacity: 1;
+background-color: #00AB9F;
+
+}

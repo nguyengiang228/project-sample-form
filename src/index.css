@@ -1,0 +1,239 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  /* font-family: Robo; */
+}
+
+.text-22 {
+  font-size: 22px;
+}
+
+.text-primary {
+  color: #00AB9F;
+}
+
+.bg-primary {
+  background-color: #00AB9F;
+}
+
+.text-gray {
+  color: #929292;
+}
+
+.text-gray2 {
+  color: #ACACAC;
+}
+
+.border-b-primary {
+  border-bottom: 2px solid #00AB9F;
+}
+
+.border-b-primary-1 {
+  border-bottom: 1px solid #00AB9F;
+}
+
+.bg_body {
+  background-color: #E1E1E1;
+}
+
+
+.border-primary {
+  border: 1px solid #00AB9F;
+}
+
+.text-second {
+  color: #006962;
+}
+
+.max-w-1310 {
+  max-width: 1310px;
+}
+
+.button_second:hover {
+  /* border: 1px solid #006962; */
+  background-color: #00AB9F;
+  color: white;
+}
+
+.button_primary:hover {
+  background-color: white;
+  border: 1px solid #006962;
+  color: black;
+}
+
+.book-title:hover {
+  color: #00AB9F;
+}
+
+@media only screen and (max-width: 600px) {
+  /* * {
+    background-color: white;
+  } */
+
+  .desktop_only {
+    display: none !important;
+  }
+  
+  .mobile_hidden {
+    display: none !important;
+  }
+
+  .max-w-1310 {
+    max-width: 100%;
+  }
+
+  
+  .mb_nu {
+    text-decoration-line: none;
+  }
+
+  .card {
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 0;
+  }
+
+  .price *{
+    font-size: 12px !important;
+  }
+
+  .price {
+    padding: 0 18px;
+  }
+
+  .m-bg-white {
+    background-color: white !important;
+  }
+
+  .input_w {
+    width: 100% !important;
+  }
+
+  .m_not_flex {
+    display: block;
+  }
+
+  .m_not_flex * {
+    width: 100%;
+  }
+
+  .m_pb_footer {
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .mobile_only {
+    display: none !important;
+  }
+  
+  .desktop_hidden {
+    display: none !important;
+  }
+}
+
+.login-modal .ant-modal-content {
+  border: 2px solid #00AB9F;
+}
+
+.input-otp__field {
+  height: 50px !important;
+  width: 50px !important;
+  min-width: 50px !important;
+}
+
+
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+
+}
+
+.custom-checkbox input {
+  display: none;
+}
+
+.custom-checkbox span {
+  border: 1px solid #7e8a94;
+  /* float: right; */
+  height: 18px;
+  width: 18px;
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* padding: 5px; */
+  background-color: transparent;
+}
+
+.custom-checkbox .mini {
+  height: 22px;
+  width: 22px;
+}
+
+.custom-checkbox:hover span,
+.custom-checkbox input:checked + span {
+  /* border: none; */
+  /* background-color: #FEC401; */
+  /* color: white; */
+}
+
+.custom-checkbox input:checked + .mini {
+  height: 22px;
+  width: 22px;
+}
+
+.custom-checkbox input:checked + span {
+  /* border: 3px solid white; */
+  background-color: #00AB9F;
+  height: 18px;
+  width: 18px;
+  border: none;
+  margin-right: 13px;
+  /* color: white; */
+  
+}
+
+.custom-checkbox input + .mini {
+  font-size: 20px;
+}
+
+.custom-checkbox input + span {
+  color: white;
+  font-size: 16px;
+  /* margin-right: 8px; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 29px;
+  margin-right: 10px;
+}
+
+.custom-checkbox input:checked + span:before {
+  content: "✓";
+  color: white;
+}
+
+
+/* select */
+.select_cat {
+  display: none;
+}
+
+.select_cat:hover {
+  background-color: #00AB9F;
+  color: white;
+}
+
+.select_origin:hover .select_cat {
+  display: block;
+}
+
+.sr-only:checked + div {
+  background-color: #00ab9f;
+}
