@@ -27,7 +27,7 @@ export default function Trending() {
       <div
         className="flex justify-between items-center"
         style={{
-          background: "#00AB9F",
+          background: "#006666",
         }}
       >
         <div className="flex items-center my-3 mx-6">

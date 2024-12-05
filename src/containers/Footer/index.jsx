@@ -18,8 +18,8 @@ export default function Footer() {
   const navigate = useNavigate();
   return (
     <div className="">
-      <div className="bg-primary h-16 mobile_hidden">
-        <div className="flex justify-between items-center h-16 mx-auto bg-primary max-w-1310">
+      <div className="bg-secondaryColor h-16 mobile_hidden">
+        <div className="bg-secondaryColor flex justify-between items-center h-16 mx-auto  max-w-1310">
           <div className="flex items-center font-bold text-22 text-white">
             <img src={Mail2Icon} alt="" className="mr-2" />
             ĐĂNG KÝ NHẬN KHUYẾN MÃI
@@ -36,30 +36,21 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="px-16 py-10 bg-white flex fb1">
+      <div className="ml-20 mr-20 px-16  py-10 bg-white flex fb1">
         <div
-          className="pr-10 w-5/12"
+          className="pr-10 w-3/12"
           style={{
             // width: "455px",
             color: "#006962",
             borderRight: "2px solid #006962",
           }}
         >
-          <img src={Logo2} alt="" className="" />
+          <img src={Logo2} alt="" style={{ width: "140px" }} />
           <div className="text-sm mb-6 mt-7 mobile_hidden">
-            Tầng 9, số 333 đường Nguyễn Trãi, quận Thanh Xuân, TP. HN
+            Số 6, đường Nguyễn Trung Ngạn, thị trấn Ân Thi, huyện Ân Thi, tỉnh
+            Hưng Yên
           </div>
-          <div className="text-sm mb-6 mobile_hidden">
-            Công ty cổ phần phát hành sách TP. Hà Nội - BookStore
-          </div>
-          <div className="text-sm mb-6 mobile_hidden">
-            88 Lê Duẩn, phường Văn Miếu, quận Đống Đa, TP. Hà Nội
-          </div>
-          <div className="text-sm mb-6 mobile_hidden">
-            Bookstore.com nhận đặt hàng trực tuyến và giao hàng tận nơi. KHÔNG
-            hỗ trợ đặt mua và nhận hàng trực tiếp tại văn phòng cũng như tất cả
-            Hệ Thống BookStore trên toàn quốc.
-          </div>
+
           <img src={Notice} alt="" className="mobile_hidden" />
           <div className="flex justify-between my-6 fb2">
             <img src={Facebook} alt="" />
@@ -67,20 +58,6 @@ export default function Footer() {
             <img src={Youtube} alt="" />
             <img src={Tum} alt="" />
             <img src={Twitter} alt="" />
-          </div>
-
-          <div className="fb3">
-            <div className="text-22 text-black font-bold">Địa chỉ liên hệ</div>
-            <div className="flex items-center mt-4">
-              <img src={LocationIcon} alt="" className="mr-4" />
-              Cơ sở 1: Tầng 9 Số 333 đường Nguyễn Trãi quận Thanh Xuân, Thành
-              phố Hà Nội
-            </div>
-            <div className="flex items-center mt-4">
-              <img src={LocationIcon} alt="" className="mr-4" />
-              Cơ sở 2: Số 88 Lê Duẩn, phường Văn Miếu, quận Đống Đa, Thành phố
-              Hà Nội
-            </div>
           </div>
 
           <div className="flex justify-between mobile_hidden">
@@ -153,15 +130,16 @@ export default function Footer() {
             <div className="text-22 text-black font-bold">LIÊN HỆ</div>
             <div className="flex items-center mt-4">
               <img src={LocationIcon} alt="" className="mr-4" />
-              88 Lê Duẩn, phường Văn Miếu, quận Đống Đa, TP. Hà Nội
+              Số 6, đường Nguyễn Trung Ngạn, thị trấn Ân Thi, huyện Ân Thi, tỉnh
+              Hưng Yên.
             </div>
             <div className="flex items-center my-4">
               <img src={MailIcon} alt="" className="mr-4" />
-              bookstore.cskh@gmail.com
+              AnThibookstore.cskh@gmail.com
             </div>
             <div className="flex items-center">
               <img src={SwitchboardIcon} alt="" className="mr-4" />
-              0989456789
+              0377893603
             </div>
           </div>
         </div>

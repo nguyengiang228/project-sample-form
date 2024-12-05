@@ -61,7 +61,7 @@ export default function Header({ cartChange }) {
             <img
               src={Logo}
               alt={"Logo"}
-              className="leftIcon w-fit cursor-pointer"
+              className="logoIcon w-fit cursor-pointer"
               onClick={() => navigate("/")}
             />
             <div className="relative menu-icon">
@@ -91,7 +91,7 @@ export default function Header({ cartChange }) {
           >
             <div
               className="rightItem account_info flex flex-col justify-center items-center cursor-pointer relative"
-            // onClick={() => navigate("/thong-tin-tai-khoan")}
+              // onClick={() => navigate("/thong-tin-tai-khoan")}
             >
               <img src={User} alt="" className="rightIcon" />
               <div className="rightLabel text-sm">Tài khoản</div>
@@ -194,15 +194,17 @@ export default function Header({ cartChange }) {
           <img src={Mega} alt="" width={60} onClick={() => navigate("/menu")} />
         </div>
         {!!value && (
-          <div className="absolute px-8"
+          <div
+            className="absolute px-8"
             style={{
               // bottom: "-100%",
               right: 0,
               left: 0,
               top: 66,
               zIndex: 10000,
-              width: '100vw'
-            }}>
+              width: "100vw",
+            }}
+          >
             <img
               src={search}
               alt=""
@@ -228,8 +230,6 @@ export default function Header({ cartChange }) {
               right: 20,
             }}
           />
-
-
         </div>
       </div>
     </>

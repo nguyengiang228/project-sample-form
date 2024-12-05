@@ -103,13 +103,15 @@ export default function AccountInfoPage() {
                 <div className="mbthanhton-elip5 flex items-center mr-20">
                   <img
                     onClick={(e) => {
-                      e.target.parentNode?.parentNode.querySelectorAll('img').forEach(x => {
-                        x.src = r2
-                      })
+                      e.target.parentNode?.parentNode
+                        .querySelectorAll("img")
+                        .forEach((x) => {
+                          x.src = r2;
+                        });
                       if (!e.target.src.includes(r1)) {
-                        e.target.src = r1
+                        e.target.src = r1;
                       } else {
-                        e.target.src = r2
+                        e.target.src = r2;
                       }
                     }}
                     alt="Ellipse13I362"
@@ -122,13 +124,15 @@ export default function AccountInfoPage() {
                 <div className="mbthanhton-elip5 flex items-center">
                   <img
                     onClick={(e) => {
-                      e.target.parentNode?.parentNode.querySelectorAll('img').forEach(x => {
-                        x.src = r2
-                      })
+                      e.target.parentNode?.parentNode
+                        .querySelectorAll("img")
+                        .forEach((x) => {
+                          x.src = r2;
+                        });
                       if (!e.target.src.includes(r1)) {
-                        e.target.src = r1
+                        e.target.src = r1;
                       } else {
-                        e.target.src = r2
+                        e.target.src = r2;
                       }
                     }}
                     alt="Ellipse13I362"
@@ -168,7 +172,7 @@ export default function AccountInfoPage() {
               />
             </div>
             <button
-              className="rounded-md text-white p-4 bg-primary my-4"
+              className="rounded-md text-white p-4 bg-secondaryColor my-4"
               onClick={() => navigate("/")}
             >
               Lưu thay đổi

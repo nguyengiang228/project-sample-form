@@ -133,7 +133,7 @@ export default function ForgotPassword() {
               />
             </div>
             <div
-              className="rounded-xl mt-7 text-white bg-primary py-2 px-5 cursor-pointer font-bold text-base"
+              className="rounded-xl mt-7 text-white bg-secondaryColor py-2 px-5 cursor-pointer font-bold text-base"
               onClick={() => showModal()}
             >
               Xác nhận

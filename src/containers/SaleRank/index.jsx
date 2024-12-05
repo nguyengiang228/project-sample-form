@@ -23,7 +23,7 @@ export default function SaleRank() {
       <div className="flex justify-between items-center bg-black">
         <div className="flex items-center my-3 mx-6">
           <div className="font-bold text-22 mr-2 text-white">
-            Xu hướng mua sắm
+            Bảng xếp hạng bán chạy theo tuần
           </div>
           <img src={SaleRankIcon} alt="" />
         </div>
@@ -178,7 +178,7 @@ export default function SaleRank() {
                 Ghi chép pháp y - Những tử thi không hoàn chỉnh
               </div>
               <div className="my-4 text-sm italic">Lưu Bát Bách</div>
-              <div className="text-primary text-sm">998 điểm</div>
+              <div className="text-primary text-sm">882 điểm</div>
             </div>
           </div>
 
@@ -204,7 +204,7 @@ export default function SaleRank() {
                 Ghi chép pháp y - Những tử thi không hoàn chỉnh
               </div>
               <div className="my-4 text-sm italic">Lưu Bát Bách</div>
-              <div className="text-primary text-sm">998 điểm</div>
+              <div className="text-primary text-sm">81- điểm</div>
             </div>
           </div>
 
@@ -230,7 +230,7 @@ export default function SaleRank() {
                 Ghi chép pháp y - Những tử thi không hoàn chỉnh
               </div>
               <div className="my-4 text-sm italic">Lưu Bát Bách</div>
-              <div className="text-primary text-sm">998 điểm</div>
+              <div className="text-primary text-sm">778 điểm</div>
             </div>
           </div>
 
@@ -256,7 +256,7 @@ export default function SaleRank() {
                 Ghi chép pháp y - Những tử thi không hoàn chỉnh
               </div>
               <div className="my-4 text-sm italic">Lưu Bát Bách</div>
-              <div className="text-primary text-sm">998 điểm</div>
+              <div className="text-primary text-sm">726 điểm</div>
             </div>
           </div>
 

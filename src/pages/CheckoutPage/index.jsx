@@ -65,6 +65,7 @@ export default function CheckoutPage() {
                 className="p-2 mt-2 w-64"
                 style={{
                   backgroundColor: "#00AB9F1A",
+                  borderRadius: "5px",
                 }}
               >
                 <div
@@ -157,8 +158,8 @@ export default function CheckoutPage() {
                 </div>
               </div>
               <div className="flex justify-between my-4 items-center">
-                <div className="text-sm">Đinh Quốc Đạt</div>
-                <div className="font-bold text-base">0888999999</div>
+                <div className="text-sm">Nghiêm Hưng</div>
+                <div className="font-bold text-base">0377893603</div>
               </div>
               <div className="text-sm italic">
                 Số 2 đường Nguyễn Trãi, quận Thanh Xuân, TP. Hà Nội
@@ -195,9 +196,7 @@ export default function CheckoutPage() {
                       <img src={i1} alt="" width={74} height={111} />
                     </div>
                     <div className="ml-6 h-24 flex flex-col flex-grow justify-between">
-                      <div className="text-base">
-                        Ác Nữ Trùng Sinh
-                      </div>
+                      <div className="text-base">Ác Nữ Trùng Sinh</div>
                       <div className="text-base">Số lượng : 1</div>
                     </div>
                     <div className="w-24 font-medium flex items-center">
@@ -209,9 +208,7 @@ export default function CheckoutPage() {
                       <img src={i2} alt="" width={74} height={111} />
                     </div>
                     <div className="ml-6 h-24 flex flex-col flex-grow justify-between">
-                      <div className="text-base">
-                        Bão táp phong vân
-                      </div>
+                      <div className="text-base">Bão táp phong vân</div>
                       <div className="text-base">Số lượng : 1</div>
                     </div>
                     <div className="w-24 font-medium flex items-center ml-20">
@@ -545,7 +542,7 @@ export default function CheckoutPage() {
               </div>
               <div className="flex items-center justify-center my-2">
                 <button
-                  className="p-3 px-10 text-white bg-primary rounded-md font-bold"
+                  className="p-3 px-10 text-white bg-secondaryColor rounded-md font-bold"
                   onClick={() => navigate("/dat-hang-thanh-cong")}
                 >
                   Đặt hàng

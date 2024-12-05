@@ -43,7 +43,6 @@ import i4 from "./assets/4.png";
 import i6 from "./assets/6.png";
 import i7 from "./assets/7.png";
 
-
 export default function Category() {
   const navigate = useNavigate();
 
@@ -204,7 +203,7 @@ export default function Category() {
           <div
             className="flex justify-between items-center"
             style={{
-              background: "#00AB9F",
+              background: "#006666",
             }}
           >
             <div className="font-bold my-3 mx-4 text-22">Giá tốt hôm nay</div>
@@ -265,7 +264,7 @@ export default function Category() {
                 className="rounded-md h-64 w-44 mx-auto mt-2 block"
               />
               <div className="book-title bookTitle text-center text-black mt-2 mb-3">
-                Khó Dỗ Dành  
+                Khó Dỗ Dành
               </div>
               <div className="sale text-black text-xs">
                 <i>Đã bán: 15</i> <br />
@@ -279,7 +278,9 @@ export default function Category() {
                 </div>
               </div>
               <div className="price flex justify-between mt-2">
-                <div className="text-base font-bold text-primary">169,000 đ</div>
+                <div className="text-base font-bold text-primary">
+                  169,000 đ
+                </div>
                 <div className="text-base font-bold text-gray line-through">
                   199,000 đ{" "}
                 </div>
@@ -312,7 +313,9 @@ export default function Category() {
                 </div>
               </div>
               <div className="price flex justify-between mt-2">
-                <div className="text-base font-bold text-primary">129,000 đ</div>
+                <div className="text-base font-bold text-primary">
+                  129,000 đ
+                </div>
                 <div className="text-base font-bold text-gray line-through">
                   159,000 đ{" "}
                 </div>
@@ -331,7 +334,7 @@ export default function Category() {
                 className="rounded-md h-64 w-44 mx-auto mt-2 block"
               />
               <div className="book-title bookTitle text-center text-black mt-2 mb-3">
-                Muôn Kiếp Nhân Sinh <br /> 
+                Muôn Kiếp Nhân Sinh <br />
               </div>
               <div className="sale text-black text-xs">
                 <i>Đã bán: 25</i> <br />
@@ -378,7 +381,9 @@ export default function Category() {
                 </div>
               </div>
               <div className="price flex justify-between mt-2">
-                <div className="text-base font-bold text-primary">169,000 đ</div>
+                <div className="text-base font-bold text-primary">
+                  169,000 đ
+                </div>
                 <div className="text-base font-bold text-gray line-through">
                   199,000 đ{" "}
                 </div>
@@ -397,7 +402,7 @@ export default function Category() {
           <div
             className="flex justify-between items-center cm6"
             style={{
-              background: "#00AB9F",
+              background: "#006666",
             }}
           >
             <div className="font-bold my-3 mx-4 text-22 cm4">
@@ -462,7 +467,9 @@ export default function Category() {
               </div>
 
               <div className="price flex justify-between mt-2">
-                <div className="text-base font-bold text-primary">110,000 đ</div>
+                <div className="text-base font-bold text-primary">
+                  110,000 đ
+                </div>
                 <div className="text-base font-bold text-gray line-through">
                   210,000 đ{" "}
                 </div>
@@ -485,7 +492,9 @@ export default function Category() {
               </div>
 
               <div className="price flex justify-between mt-2">
-                <div className="text-base font-bold text-primary">313,000 đ</div>
+                <div className="text-base font-bold text-primary">
+                  313,000 đ
+                </div>
                 <div className="text-base font-bold text-gray line-through">
                   454,000 đ{" "}
                 </div>
@@ -508,7 +517,9 @@ export default function Category() {
               </div>
 
               <div className="price flex justify-between mt-2">
-                <div className="text-base font-bold text-primary">109,500 đ</div>
+                <div className="text-base font-bold text-primary">
+                  109,500 đ
+                </div>
                 <div className="text-base font-bold text-gray line-through">
                   188,000 đ{" "}
                 </div>
@@ -581,7 +592,9 @@ export default function Category() {
               </div>
 
               <div className="price flex justify-between mt-2">
-                <div className="text-base font-bold text-primary">169,000 đ</div>
+                <div className="text-base font-bold text-primary">
+                  169,000 đ
+                </div>
                 <div className="text-base font-bold text-gray line-through">
                   199,000 đ{" "}
                 </div>
@@ -593,7 +606,7 @@ export default function Category() {
             <div
               className="flex justify-between items-center cm6"
               style={{
-                background: "#00AB9F",
+                background: "#006666",
               }}
             >
               <div className="font-bold my-3 mx-4 text-22 cm4">
@@ -664,7 +677,7 @@ export default function Category() {
             <div
               className="flex justify-between items-center cm6"
               style={{
-                background: "#00AB9F",
+                background: "#006666",
               }}
             >
               <div className="font-bold my-3 mx-4 text-22 cm4">
@@ -847,7 +860,7 @@ export default function Category() {
           <div
             className="flex justify-between items-center"
             style={{
-              background: "#00AB9F",
+              background: "#006666",
             }}
           >
             <div className="font-bold my-3 mx-4 text-22">
@@ -881,7 +894,9 @@ export default function Category() {
               </div>
 
               <div className="price flex justify-between mt-2">
-                <div className="text-base font-bold text-primary">169,000 đ</div>
+                <div className="text-base font-bold text-primary">
+                  169,000 đ
+                </div>
                 <div className="text-base font-bold text-gray line-through">
                   199,000 đ{" "}
                 </div>
@@ -923,11 +938,13 @@ export default function Category() {
                 className="rounded-md h-64 w-44 mx-auto mt-2 block"
               />
               <div className="book-title bookTitle text-center text-black mt-2 mb-3">
-                Muôn kiếp nhân sinh <br /> 
+                Muôn kiếp nhân sinh <br />
               </div>
 
               <div className="price flex justify-between mt-2">
-                <div className="text-base font-bold text-primary">129,000 đ</div>
+                <div className="text-base font-bold text-primary">
+                  129,000 đ
+                </div>
                 <div className="text-base font-bold text-gray line-through">
                   159,000 đ{" "}
                 </div>

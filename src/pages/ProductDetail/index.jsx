@@ -276,7 +276,7 @@ export default function ProducDetailPage() {
                     Thêm vào giỏ hàng
                   </button>
                   <button
-                    className="bg-primary px-4 py-2 rounded-md text-white"
+                    className="bg-secondaryColor px-4 py-2 rounded-md text-white"
                     onClick={() => navigate("/thanh-toan")}
                   >
                     Mua ngay
@@ -348,7 +348,7 @@ export default function ProducDetailPage() {
                   <img
                     src={BgPromotion}
                     alt=""
-                    className="select-none mr-1"
+                    className="produce-image mr-1"
                     draggable={false}
                   />
                   <div className="w-full absolute top-0 text-white mt-2">
@@ -378,7 +378,7 @@ export default function ProducDetailPage() {
                   </div>
                   <button
                     onClick={showModal}
-                    className=" bg-primary px-4 py-2 rounded-md text-white h-8 flex items-center justify-center font-bold"
+                    className=" bg-secondaryColor px-4 py-2 rounded-md text-white h-8 flex items-center justify-center font-bold"
                   >
                     Lưu
                   </button>
@@ -394,7 +394,7 @@ export default function ProducDetailPage() {
                   <img
                     src={BgPromotion}
                     alt=""
-                    className="select-none mr-1"
+                    className="produce-image mr-1"
                     draggable={false}
                   />
                   <div className="w-full absolute top-0 text-white mt-2">
@@ -424,7 +424,7 @@ export default function ProducDetailPage() {
                   </div>
                   <button
                     onClick={showModal}
-                    className=" bg-primary px-4 py-2 rounded-md text-white h-8 flex items-center justify-center font-bold"
+                    className=" bg-secondaryColor px-4 py-2 rounded-md text-white h-8 flex items-center justify-center font-bold"
                   >
                     Lưu
                   </button>
@@ -440,7 +440,7 @@ export default function ProducDetailPage() {
                   <img
                     src={BgPromotion}
                     alt=""
-                    className="select-none mr-1"
+                    className="produce-image mr-1"
                     draggable={false}
                   />
                   <div className="w-full absolute top-0 text-white mt-2">
@@ -470,7 +470,7 @@ export default function ProducDetailPage() {
                   </div>
                   <button
                     onClick={showModal}
-                    className=" bg-primary px-4 py-2 rounded-md text-white h-8 flex items-center justify-center font-bold"
+                    className=" bg-secondaryColor px-4 py-2 rounded-md text-white h-8 flex items-center justify-center font-bold"
                   >
                     Lưu
                   </button>
@@ -726,12 +726,12 @@ export default function ProducDetailPage() {
             <div
               className="flex justify-between items-center"
               style={{
-                background: "#00AB9F",
+                background: "#006962",
               }}
             >
               <div className="flex items-center my-3 mx-6">
                 <div className="font-bold text-22 mr-2 text-white">
-                  BookStore giới thiệu tới bạn
+                  Nhà sách Ân Thi hân hạnh giới thiệu tới bạn
                 </div>
               </div>
               <div className="flex items-center my-3 mx-6">
@@ -891,12 +891,12 @@ export default function ProducDetailPage() {
             <div
               className="flex justify-between items-center"
               style={{
-                background: "#00AB9F",
+                background: "#006962",
               }}
             >
               <div className="flex items-center my-3 mx-6">
                 <div className="font-bold text-22 mr-2 text-white">
-                  BookStore - The best choice
+                  An Thi bookstore- The best choice
                 </div>
               </div>
               <div className="flex items-center my-3 mx-6">

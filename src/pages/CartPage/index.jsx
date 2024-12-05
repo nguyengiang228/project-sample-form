@@ -274,7 +274,7 @@ export default function CartPage() {
                   </div>
                   <div className="flex justify-center pt-4">
                     <button
-                      className="bg-primary p-2 rounded-md text-white"
+                      className="bg-secondaryColor p-2 rounded-md text-white"
                       onClick={() => navigate("/thanh-toan")}
                     >
                       Tiến hành thanh toán

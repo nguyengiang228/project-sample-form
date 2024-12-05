@@ -160,14 +160,14 @@ export default function Register() {
           />
         </div>
         <div
-          className="mobile_only rounded-3xl w-9/12 mt-7 text-white bg-primary py-3 px-5 cursor-pointer font-bold text-22 text-center"
+          className="mobile_only rounded-3xl w-9/12 mt-7 text-white bg-secondaryColor py-3 px-5 cursor-pointer font-bold text-22 text-center"
           onClick={showModal}
         >
           Đăng ký
         </div>
 
         <div
-          className="desktop_only rounded-xl mt-7 text-white bg-primary py-3 px-5 cursor-pointer font-bold text-22"
+          className="desktop_only rounded-xl mt-7 text-white bg-secondaryColor py-3 px-5 cursor-pointer font-bold text-22"
           onClick={showModal}
         >
           Đăng ký

@@ -57,15 +57,17 @@ export default function CheckoutSuccessPage() {
             >
               <div className="flex px-4 py-2">
                 <div className="w-80">Tên người nhận: </div>
-                <div>Đinh Quốc Đạt</div>
+                <div>Nghiêm Bá Hưng</div>
               </div>
               <div className="flex px-4 py-2">
                 <div className="w-80">Số điện thoại:</div>
-                <div>0888999999</div>
+                <div>0377893603</div>
               </div>
               <div className="flex px-4 py-2">
                 <div className="w-80">Địa chỉ:</div>
-                <div>số 2 đường Nguyễn Trãi, quận Thanh Xuân, TP. Hà Nội</div>
+                <div>
+                  số 7 ngõ 88/5 đường La Nội, Dương Nội, Hà Đông, TP. Hà Nội
+                </div>
               </div>
               <div className="flex px-4 py-2">
                 <div className="w-80">Phương thức thanh toán:</div>

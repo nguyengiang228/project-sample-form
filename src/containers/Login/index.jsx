@@ -114,7 +114,7 @@ export default function Login() {
           Đăng nhập
         </div>
         <div
-          className="desktop_only rounded-xl mt-7 text-white bg-primary py-3 px-5 cursor-pointer font-bold text-22"
+          className="desktop_only rounded-xl mt-7 text-white bg-secondaryColor py-3 px-5 cursor-pointer font-bold text-22"
           onClick={showModal}
         >
           Đăng nhập

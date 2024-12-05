@@ -12,9 +12,12 @@ export default function LoginPage() {
       <div className="desktop_only">
         <Header />
       </div>
-      <div className="mobile_only text-center text-22 text-white py-5" style={{
-        backgroundColor: "#00AB9F"
-      }}>
+      <div
+        className="mobile_only text-center text-22 text-white py-5"
+        style={{
+          backgroundColor: "#00AB9F",
+        }}
+      >
         Đăng nhập
       </div>
 
@@ -32,7 +35,12 @@ export default function LoginPage() {
       </div>
 
       <div className="mobile_only">
-        <img src={login_b} alt="" className="mx-auto" onClick={() => navigate('/dang-ky')} />
+        <img
+          src={login_b}
+          alt=""
+          className="mx-auto"
+          onClick={() => navigate("/dang-ky")}
+        />
       </div>
       <BottomNavigation active={"login"} />
     </div>
