@@ -52,7 +52,7 @@ export default function AdminCustomerPage() {
                 </select>
               </div>
               <button
-                className="p-2 bg-primary text-white rounded-md mx-2"
+                className="p-2 bg-hover text-white rounded-md mx-2"
                 onClick={() => navigate("/admin/them-san-pham")}
               >
                 Thêm sản phẩm mới +
@@ -221,7 +221,9 @@ export default function AdminCustomerPage() {
                     <tr className="border-b border-gray-200 py-1">
                       <td className="px-4 py-3">NN222</td>
                       <td className="px-4 py-2">Sách Ngoại Ngữ</td>
-                      <td className="px-4 py-2">Sổ tay tiếng nhật thương mại</td>
+                      <td className="px-4 py-2">
+                        Sổ tay tiếng nhật thương mại
+                      </td>
                       <td className="px-4 py-2 text-center">456</td>
                       <td className="px-4 py-2 text-right">71,000 đ</td>
                       <td className="px-4 py-2 flex justify-center">
@@ -242,7 +244,9 @@ export default function AdminCustomerPage() {
                     <tr className="border-b border-gray-200 py-1">
                       <td className="px-4 py-3">TS798</td>
                       <td className="px-4 py-2">Tiểu Sử hồi ký</td>
-                      <td className="px-4 py-2">Lý Quang Diệu - người cha lập quốc</td>
+                      <td className="px-4 py-2">
+                        Lý Quang Diệu - người cha lập quốc
+                      </td>
                       <td className="px-4 py-2 text-center">119</td>
                       <td className="px-4 py-2 text-right">55,000 đ</td>
                       <td className="px-4 py-2 flex justify-center">
