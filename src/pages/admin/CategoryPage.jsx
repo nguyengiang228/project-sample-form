@@ -27,7 +27,7 @@ export default function AdminCategoryPage() {
                 <div className="text-22 font-semibold">Quản lý danh mục</div>
                 <div className="text-sm ">
                   <button
-                    className="p-2 bg-primary text-white rounded-md mx-2"
+                    className="p-2 bg-hover text-white rounded-md mx-2"
                     onClick={() => navigate("/admin/them-danh-muc")}
                   >
                     Thêm danh mục mới +
@@ -96,7 +96,9 @@ export default function AdminCategoryPage() {
                       </tr>
                       <tr className="py-2 h-14">
                         <td className="px-4 py-3">TL - KNS</td>
-                        <td className="px-4 py-2">Sách Tâm Lý - Kỹ Năng Sống</td>
+                        <td className="px-4 py-2">
+                          Sách Tâm Lý - Kỹ Năng Sống
+                        </td>
                         <td className="px-4 py-2">410</td>
                         <td className="px-4 py-2 text-center">120,550,000 đ</td>
                         <td className="px-4 py-2 flex justify-center items-center">

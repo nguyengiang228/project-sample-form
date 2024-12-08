@@ -40,7 +40,9 @@
 .bg_body {
   background-color: #e1e1e1;
 }
-
+.bg-hover {
+  background-color: #006666;
+}
 .border-primary {
   border: 1px solid #00ab9f;
 }

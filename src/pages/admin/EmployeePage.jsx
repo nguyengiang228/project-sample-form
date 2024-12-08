@@ -28,7 +28,7 @@ export default function AdminEmployeePage() {
                   <option value="">Đã giao</option>
                 </select>
                 <button
-                  className="p-2 bg-primary text-white rounded-md mx-2"
+                  className="p-2 bg-hover text-white rounded-md mx-2"
                   onClick={() => navigate("/admin/them-nhan-vien")}
                 >
                   Thêm TT nhân viên mới +

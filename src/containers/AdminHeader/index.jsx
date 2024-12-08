@@ -41,7 +41,7 @@ export default function AdminHeader() {
               />
             </div>
             <div className="mx-3">
-              <div className="text-sm">Đinh Quốc Đạt</div>
+              <div className="text-sm">Nghiêm Bá Hưng</div>
               <div className="text-xs italic">Quản trị viên</div>
             </div>
             <div className="">

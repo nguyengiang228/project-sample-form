@@ -26,6 +26,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center">
             <input
+              style={{ width: "550px" }}
               type="text"
               className="rounded-xl p-4 text-sm outline-none mr-6 max-h-12"
               placeholder="Nhập địa chỉ email của bạn"
