@@ -93,7 +93,7 @@ export default function Footer() {
                 className="text-sm mb-6 cursor-pointer"
                 onClick={() => navigate("/gioi-thieu")}
               >
-                Giới thiệu về BookStore
+                Giới thiệu về Nhà sách Ân Thi
               </div>
               <div className="text-sm mb-6">Hệ thống trung tâm - nhà sách</div>
             </div>

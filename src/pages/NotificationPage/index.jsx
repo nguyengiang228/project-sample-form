@@ -127,7 +127,7 @@ export default function NotificationPage() {
                     <div className="">
                       <div className="font-bold ">Quà Tặng Ngập Tràn</div>
                       <div className="mt-2">
-                        BookStore gửi ngàn yêu thương đến bạn!
+                        Nhà sách Ân Thi gửi ngàn yêu thương đến bạn!
                       </div>
                     </div>
                     <i className="text-sm">09:53 am 24/04/2024</i>
@@ -147,9 +147,12 @@ export default function NotificationPage() {
                     }}
                   >
                     <div className="">
-                      <div className="font-bold ">Tương tác cùng bookStore</div>
+                      <div className="font-bold ">
+                        Tương tác cùng nhà sách Ân Thi
+                      </div>
                       <div className="mt-2">
-                        Nhận ngay vô vàn voucher hấp dẫn khi mua hàng tại BookStore từ 2 sản phẩm bất kỳ
+                        Nhận ngay vô vàn voucher hấp dẫn khi mua hàng tại Nhà
+                        sách Ân Thi từ 2 sản phẩm bất kỳ
                       </div>
                     </div>
                     <i className="text-sm">09:53 am 24/04/2024</i>
@@ -169,9 +172,11 @@ export default function NotificationPage() {
                     }}
                   >
                     <div className="">
-                      <div className="font-bold ">BookStore cập bến tri thức</div>
+                      <div className="font-bold ">
+                        Nhà sách Ân Thi cập bến tri thức
+                      </div>
                       <div className="mt-2">
-                        Hàng ngàn cuốn sách quý giá đã cập bến BookStore
+                        Hàng ngàn cuốn sách quý giá đã cập bến nhà sách Ân Thi
                       </div>
                     </div>
                     <i className="text-sm">09:53 am 24/04/2024</i>
@@ -194,7 +199,8 @@ export default function NotificationPage() {
                     <div className="">
                       <div className="font-bold ">FlashSale 22/04</div>
                       <div className="mt-2">
-                        Duy nhất ngày 22/04 FlashSale từ 11h tới 16h. Nhanh tay nào mọi người ơiiiiii
+                        Duy nhất ngày 22/04 FlashSale từ 11h tới 16h. Nhanh tay
+                        nào mọi người ơiiiiii
                       </div>
                     </div>
                     <i className="text-sm">09:53 am 24/04/2024</i>
@@ -214,9 +220,12 @@ export default function NotificationPage() {
                     }}
                   >
                     <div className="">
-                      <div className="font-bold ">Thông báo bảo trì website</div>
+                      <div className="font-bold ">
+                        Thông báo bảo trì website
+                      </div>
                       <div className="mt-2">
-                        Để tăng tính trải nghiệm của quý khách hàng, chúng tôi sẽ bảo trì website định kì. Mong quý khách thông cảm!
+                        Để tăng tính trải nghiệm của quý khách hàng, chúng tôi
+                        sẽ bảo trì website định kì. Mong quý khách thông cảm!
                       </div>
                     </div>
                     <i className="text-sm">09:53 am 24/04/2024</i>

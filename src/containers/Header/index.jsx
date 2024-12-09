@@ -36,8 +36,8 @@ export default function Header({ cartChange }) {
         <div className="bg-white py-2 res1 mobile_hidden">
           <div className="max-w-1310 mx-auto flex justify-between">
             <div className="text-base font-bold text-black">
-              Every Purchase Supports Independent Bookstores. A Better Way to
-              Buy Books Online.
+              Every Purchase Supports Independent Nhà sách Ân Thi. A Better Way
+              to Buy Books Online.
             </div>
             <div
               className="text-base font-semibold text-primary italic cursor-pointer"
@@ -109,7 +109,9 @@ export default function Header({ cartChange }) {
                   <div>
                     <img src={m1} alt="" />
                   </div>
-                  <div className="font-bold ml-4">Tài khoản BookStore</div>
+                  <div className="font-bold ml-4">
+                    Tài khoản nhà sách Ân Thi
+                  </div>
                 </div>
                 <div
                   className="flex p-4 bg-white"

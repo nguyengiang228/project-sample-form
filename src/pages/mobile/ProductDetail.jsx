@@ -121,7 +121,7 @@ export default function ProductDetailMobile() {
           <span>Ưu đãi khác</span>
         </span>
         <span className="page-text026">
-          <span>BookStore giới thiệu</span>
+          <span>Nhà sách Ân Thi giới thiệu</span>
         </span>
         <div className="page-thngtin-sp">
           <span className="page-text028">

@@ -37,23 +37,23 @@ export default function PolicyPage() {
             CHÍNH SÁCH ĐỔI / TRẢ / HOÀN TIỀN
           </div>
           <div className="text-xs text-center uppercase italic text-gray-600 my-3">
-            ÁP DỤNG TOÀN BỘ ĐƠN HÀNG QUÝ KHÁCH MUA TẠI BOOKSTORE.COM
+            ÁP DỤNG TOÀN BỘ ĐƠN HÀNG QUÝ KHÁCH MUA TẠI AnThi.COM
           </div>
           <div>
             <div className="text-sm">
               <div>
                 Chúng tôi luôn trân trọng sự tin tưởng và ủng hộ của quý khách
-                hàng khi trải nghiệm mua hàng tại BookStore. Do đó chúng tôi
-                luôn cố gắng hoàn thiện dịch vụ tốt nhất để phục vụ mọi nhu cầu
-                mua sắm của quý khách.
+                hàng khi trải nghiệm mua hàng tại nhà sách Ân Thi. Do đó chúng
+                tôi luôn cố gắng hoàn thiện dịch vụ tốt nhất để phục vụ mọi nhu
+                cầu mua sắm của quý khách.
               </div>
               <div>
-                BookStore chúng tôi luôn luôn cam kết tất cả các sản phẩm bán
-                tại BookStore 100% là những sản phẩm chất lượng và xuất xứ nguồn
-                gốc rõ ràng, hợp pháp cũng như an toàn cho người tiêu dùng. Để
-                việc mua sắm của quý khách tại BookStore là trải nghiệm dịch vụ
-                thân thiện, chúng tôi hy vọng quý khách sẽ kiểm tra kỹ các nội
-                dung sau trước khi nhận hàng:
+                Nhà sách Ân Thi chúng tôi luôn luôn cam kết tất cả các sản phẩm
+                bán tại nhà sách Ân Thi 100% là những sản phẩm chất lượng và
+                xuất xứ nguồn gốc rõ ràng, hợp pháp cũng như an toàn cho người
+                tiêu dùng. Để việc mua sắm của quý khách tại nhà sách Ân Thi là
+                trải nghiệm dịch vụ thân thiện, chúng tôi hy vọng quý khách sẽ
+                kiểm tra kỹ các nội dung sau trước khi nhận hàng:
               </div>
               <ul className="list-disc pl-7">
                 <li>
@@ -63,10 +63,10 @@ export default function PolicyPage() {
               </ul>
               <div>
                 Trong trường hợp hiếm hoi sản phẩm quý khách nhận được có khiếm
-                khuyết, hư hỏng hoặc không như mô tả, BookStore cam kết bảo vệ
-                khách hàng bằng chính sách đổi trả/ hoàn tiền trên tinh thần bảo
-                vệ quyền lợi người tiêu dùng nhằm cam kết với quý khách về chất
-                lượng sản phẩm và dịch vụ của chúng tôi.
+                khuyết, hư hỏng hoặc không như mô tả, nhà sách Ân Thi cam kết
+                bảo vệ khách hàng bằng chính sách đổi trả/ hoàn tiền trên tinh
+                thần bảo vệ quyền lợi người tiêu dùng nhằm cam kết với quý khách
+                về chất lượng sản phẩm và dịch vụ của chúng tôi.
               </div>
             </div>
           </div>
@@ -118,7 +118,9 @@ export default function PolicyPage() {
           <div className="pb-4">
             <div className="text-lg font-medium my-4">Điều kiện đổi trả</div>
             <div className="text-sm">
-              <div>BookStore hỗ trợ đổi/ trả sản phẩm cho quý khách nếu:</div>
+              <div>
+                Nhà sách Ân Thi hỗ trợ đổi/ trả sản phẩm cho quý khách nếu:
+              </div>
               <ul className="list-disc pl-7">
                 <li>Sản phẩm còn nguyên bao bì như hiện trạng ban đầu.</li>
                 <li>
@@ -138,9 +140,9 @@ export default function PolicyPage() {
               <ul className="list-disc pl-7">
                 <li>
                   Quý khách vui lòng thông tin đơn hàng cần hỗ trợ đổi trả theo
-                  Hotline 0989456789 hoặc email về địa
-                  chỉ: bookstore.cskh@gmail.com với tiêu đề “Đổi Trả Đơn Hàng "
-                  Mã đơn hàng".
+                  Hotline 0989456789 hoặc email về địa chỉ: Nhà sách Ân
+                  Thi.cskh@gmail.com với tiêu đề “Đổi Trả Đơn Hàng " Mã đơn
+                  hàng".
                 </li>
                 <li>
                   Quý khách cần cung cấp đính kèm thêm các bằng chứng để đối
@@ -180,7 +182,7 @@ export default function PolicyPage() {
                   việc với các bộ phận liên quan, tất cả yêu cầu đổi/ trả/ bảo
                   hành quý khách cần cung cấp hình ảnh/ clip sản phẩm lỗi. Quá
                   thời gian đổi/ trả sản phẩm nếu chưa nhận được đủ hình ảnh/
-                  clip từ quý khách, BookStore xin phép từ chối hỗ trợ.
+                  clip từ quý khách, nhà sách Ân Thi xin phép từ chối hỗ trợ.
                 </li>
               </ul>
             </div>
@@ -197,7 +199,7 @@ export default function PolicyPage() {
                   gói sản phẩm như hiện trạng khi nhận hàng ban đầu (bao gồm sản
                   phẩm, quà tặng, phụ kiện kèm theo sản phẩm,…nếu có).
                 </li>
-                <li>Hóa đơn giá trị gia tăng của BookStore (nếu có).</li>
+                <li>Hóa đơn giá trị gia tăng của nhà sách Ân Thi (nếu có).</li>
                 <li>
                   Phụ kiện đi kèm sản phẩm và quà tặng khuyến mãi kèm theo (nếu
                   có).
@@ -209,12 +211,12 @@ export default function PolicyPage() {
                 </li>
                 <li>
                   Quý khách vui lòng chịu trách nhiệm về trạng thái nguyên vẹn
-                  của sản phẩm khi gửi về BookStore.
+                  của sản phẩm khi gửi về nhà sách Ân Thi.
                 </li>
                 <li>
-                  Sau khi nhận được sản phẩm quý khách gởi về, BookStore sẽ phản
-                  hồi và cập nhật thông tin trên từng giai đoạn xử lý đến quý
-                  khách qua điện thoại/email.
+                  Sau khi nhận được sản phẩm quý khách gởi về, nhà sách Ân
+                  Thi sẽ phản hồi và cập nhật thông tin trên từng giai đoạn xử
+                  lý đến quý khách qua điện thoại/email.
                 </li>
               </ul>
             </div>
@@ -250,22 +252,22 @@ export default function PolicyPage() {
                 <li>Ngày làm việc không bao gồm thứ 7, chủ nhật và ngày lễ.</li>
                 <li>Đối với những đơn hàng trả hàng hoàn tiền:</li>
                 <li>
-                  Thời gian hoàn tiền được bắt đầu tính kể từ thời điểm
-                  BookStore nhận được hàng hoàn trả và xác nhận với quý khách về
+                  Thời gian hoàn tiền được bắt đầu tính kể từ thời điểm nhà sách
+                  Ân Thi nhận được hàng hoàn trả và xác nhận với quý khách về
                   việc hàng hoàn trả đáp ứng các điều kiện trả hàng được quy
                   định tại chính sách này. Thời gian hoàn tiền tuân thủ theo quy
                   định tại Mục 6 này.
                 </li>
                 <li>
                   Đối với các đơn hàng hoàn tiền, hình thức thanh toán của quý
-                  khách là tiền mặt (COD): BookStore sẽ hoàn tiền qua tài khoản
-                  Ngân hàng do quý khách chỉ định.
+                  khách là tiền mặt (COD): nhà sách Ân Thi sẽ hoàn tiền qua tài
+                  khoản Ngân hàng do quý khách chỉ định.
                 </li>
               </ul>
               <div>
                 Trong trường hợp đã quá thời gian trên quý khách chưa nhận được
                 tiền hoàn, vui lòng liên hệ ngân hàng phát hành thẻ hoặc liên hệ
-                bộ phận Chăm sóc khách hàng của BookStore.
+                bộ phận Chăm sóc khách hàng của nhà sách Ân Thi.
               </div>
             </div>
           </div>

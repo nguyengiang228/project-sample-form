@@ -59,7 +59,9 @@ export default function Category() {
           </div>
           <div className=" intro_item flex flex-col items-center h-14 justify-center relative px-12">
             <img src={Line} alt="" className="absolute left-0 top-4 bottom-0" />
-            <div className="font-bold cat_intro_label">Deal hời BookStore </div>
+            <div className="font-bold cat_intro_label">
+              Deal hời nhà sách Ân Thi{" "}
+            </div>
             <div className="cat_intro_description">
               Tiết kiệm tới 20% với Voucher dành riêng cho bạn{" "}
             </div>

@@ -220,7 +220,7 @@ export default function CheckoutPage() {
                   <div className="flex items-center px-4 py-3 border-2 rounded-xl">
                     <img src={ShippingIcon} alt="" />
                     <div className="w-52 ml-5">
-                      Được giao bởi BookStore Smart Logistic (giao từ HN)
+                      Được giao bởi nhà sách Ân Thi Smart Logistic (giao từ HN)
                     </div>
                   </div>
                 </div>
@@ -380,7 +380,9 @@ export default function CheckoutPage() {
                 </div>
                 <div>
                   <div className="font-medium text-base ">Yêu cầu hoá đơn</div>
-                  <div className="mt-2">BookStore chỉ xuất hoá đơn điện tử</div>
+                  <div className="mt-2">
+                    nhà sách Ân Thi chỉ xuất hoá đơn điện tử
+                  </div>
                 </div>
               </div>
             </div>
